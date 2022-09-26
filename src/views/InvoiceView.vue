@@ -25,8 +25,8 @@
           <p class="customer-zip-city">
             <span>123 45</span> <span>Köpstad</span>
           </p>
-        </article></template
-      >
+        </article>
+      </template>
     </Accordion>
     <Accordion>
       <template #title><h2>Info</h2></template>
@@ -50,15 +50,15 @@
         <article>
           <h3>Förfallodag</h3>
           <p>2022-09-14</p>
-        </article></template
-      >
+        </article>
+      </template>
     </Accordion>
     <Accordion>
       <template #title><h2>Additional info</h2></template>
       <template #content
         ><h3>Tilläggsinformation</h3>
-        <p>14 dagars returrätt gäller för oanvända varor.</p></template
-      >
+        <p>14 dagars returrätt gäller för oanvända varor.</p>
+      </template>
     </Accordion>
     <Accordion>
       <template #title>
@@ -155,8 +155,8 @@
           <p class="company-bankgiro">Bankgiro 123-4567</p>
           <p class="company-iban">IBAN SE00 0000 0000 0000</p>
           <p class="company-swift-bic">SWIFT/BIC SEHHCXX1001</p>
-        </article></template
-      >
+        </article>
+      </template>
     </Accordion>
   </main>
 
