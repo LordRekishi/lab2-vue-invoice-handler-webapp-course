@@ -123,9 +123,11 @@ const selectEntry = (index) => {
   if (!hasDeleted.value) {
     if (indexes.value.includes(index)) {
       indexes.value.splice(indexes.value.indexOf(index), 1);
+      refEntries.value[index].style.border = "none";
       refEntries.value[index].style.fontWeight = "normal";
     } else if (entries.value.includes(entries.value[index])) {
       indexes.value.push(index);
+      refEntries.value[index].style.border = "3px solid black";
       refEntries.value[index].style.fontWeight = "bold";
     }
 
@@ -325,6 +327,10 @@ tr:nth-child(even) {
 
 #button-column {
   width: 13%;
+}
+
+.selectable {
+  border: none;
 }
 
 .selectable:hover {
